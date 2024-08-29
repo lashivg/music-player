@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+.scroll-container {
+  overflow-y: auto;
+  height: full; /* adjust the height to your liking */
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #ff0404;
+  border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: #fdfdfd;
+  border-radius: 10px;
+}
